@@ -31,6 +31,7 @@
    
       <section class="card" id="git-section">
         <h2>Git</h2>
+        <h3>Some GIT commands</h3>
         <ul>
           <li>git status: checks what branch we are currently on</li>
           <li>git checkout -b branch-name: creates a new branch and switches to it</li>
@@ -40,6 +41,15 @@
           <li>git push origin feature/add-html:pushes changes from feature branch to main</li>
           
         </ul>
+        <h3>Steps usually taken after amends</h3>
+        <ol>
+          <li>git pull origin main</li>
+          <li>git checkout -b feature/choosename</li>
+          <li>git add -A</li>
+          <li>git commit -m “updated project choosename file</li>
+          <li>git pull origin main </li>
+          <li>git push origin feature/choosename</li>  
+        </ol>
       </section>
    
       <section class="card" id="javascript-section">
